@@ -1,3 +1,6 @@
+import useRouteElements from "./hooks/useRouteElements";
+
 export default function App() {
-    return <div className="text-2xl font-bold underline">DStore</div>;
+    const routeElements = useRouteElements();
+    return routeElements;
 }
