@@ -28,25 +28,25 @@ export default function Header() {
                         <nav className="hidden md:flex items-center gap-8">
                             <Link
                                 to="/"
-                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm lg:text-base"
+                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm"
                             >
                                 Trang chủ
                             </Link>
                             <Link
                                 to="/products"
-                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm lg:text-base"
+                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm"
                             >
                                 Sản phẩm
                             </Link>
                             <Link
                                 to="/about"
-                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm lg:text-base"
+                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm"
                             >
                                 Về chúng tôi
                             </Link>
                             <Link
                                 to="/contact"
-                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm lg:text-base"
+                                className="text-slate-600 hover:text-slate-900 font-medium transition-colors text-sm"
                             >
                                 Liên hệ
                             </Link>
